@@ -7,7 +7,7 @@
     margin: 0;    
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 1.62;
@@ -15,10 +15,10 @@
     }        
 }
     
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
 .place__paragraph {
     font-size: 16px;
     line-height: 1.62;
-   
+   padding: 0 16px 48px 16px;
 }    
 }
