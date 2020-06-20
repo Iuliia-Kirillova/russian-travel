@@ -6,25 +6,24 @@
 .intro {
     display: flex;
     flex-direction: column;
-    padding: 40px 442px 0 148px;
+    padding: 0 442px 0 148px;
     box-sizing: border-box;
-    }
+}
 
 @media screen and (max-width: 1184px) {
     .intro {
-    padding: 92px 286px 0 48px;
-    }}
-          
-@media screen and (max-width: 868px) {
-    .intro {
-    padding: 88px 24px 0 24px;
-          
-     }}
-          
-@media screen and (max-width: 640px) {
-    .intro {
-    padding: 64px 16px 0 16px;
-          
-     }
+        padding: 0 286px 0 48px;
+    }
 }
 
+@media screen and (max-width: 868px) {
+    .intro {
+        padding: 0 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .intro {
+        padding: 0 16px 0 16px;
+    }
+}

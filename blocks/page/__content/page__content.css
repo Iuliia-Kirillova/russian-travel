@@ -1,15 +1,12 @@
 .page__content {
-  
   max-width: 1280px;
   min-width: 320px;
   width: 100%;
   min-height: 100vh;
-  font-family: 'Inter', Arial, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
   box-sizing: border-box;
 }
-  
 
