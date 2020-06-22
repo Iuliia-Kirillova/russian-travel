@@ -20,17 +20,17 @@
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 10;
+  z-index: 1;
   background-color: rgba(42, 44, 47, 0.3);
   height: 100%;
   width: 100%;
-  opacity: 0.8;
+  transition: background-color 0.2s linear;
 }
 
 .cover__link:hover::after {
   background-color: rgba(42, 44, 47, 0.8);
   cursor: pointer;
-  z-index: 10;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1184px) {
